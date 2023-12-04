@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/fcbe6e72b2.js" crossorigin="anonymous"></script>
+  <title>Weather Search</title>
+</head>
+<body>
+    <div id="outerContainer">
+        <div class="container">
+            <input type="text" id="searchInput" placeholder="Search... " onchange="searchWeather()"> <i class="fa-solid fa-magnifying-glass"></i>
+            
+          </div>
+          <h6>click button or hit enter</h6>
+    </div>
+  
+  <div id="overlay" class="overlay">
+    <div class="overlay-content" id="overlayContent">
+      <!-- Weather details will be displayed here -->
+    </div>
+    <span class="close" onclick="closeOverlay()">&times;</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(151,79,228);
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 50px;
+    border:none;
+    width: 32%;;
+    margin: auto;
+    color:white;
+    
+    background-color: rgb(138,68,213);
+    padding:10px 100px 10px 20px;
+  }
+  #outerContainer{
+   
+    margin-top: 200px;
+  }
+  h6{
+    align-items: center;
+    text-align: center;
+    color:white;
+    margin-top: 8px;
+  }
+
+  
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+  }
+  #searchInput{
+    border:none;
+    background-color: rgb(138,68,213);
+    
+    font-size: 30px;
+  }
+  input::placeholder {
+    color:white;
+  }
+  .overlay-content {
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+  }
+  
